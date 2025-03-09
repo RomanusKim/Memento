@@ -21,9 +21,4 @@ class MemoTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
         // 상세보기 화면으로 이동시키기
     }
-
-    func setData(_ memo: Memo) {
-        titleLabel.text = memo.title
-        dateLabel.text = memo.date.description
-    }
 }
