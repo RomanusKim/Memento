@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9C9802922D82D46D0002ADF5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C9802902D82D46D0002ADF5 /* Model.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9C4B8B262D77023400E4E8DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		9C4B8B0F2D77023200E4E8DB /* Memento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memento.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4B8B252D77023400E4E8DB /* MementoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4B8B2F2D77023400E4E8DB /* MementoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9802912D82D46D0002ADF5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		9C4B8B062D77023200E4E8DB = {
 			isa = PBXGroup;
 			children = (
+				9C9802902D82D46D0002ADF5 /* Model.xcdatamodeld */,
 				9C4B8B112D77023200E4E8DB /* Memento */,
 				9C4B8B282D77023400E4E8DB /* MementoTests */,
 				9C4B8B322D77023400E4E8DB /* MementoUITests */,
@@ -249,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C9802922D82D46D0002ADF5 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +570,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9C9802902D82D46D0002ADF5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9C9802912D82D46D0002ADF5 /* Model.xcdatamodel */,
+			);
+			currentVersion = 9C9802912D82D46D0002ADF5 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9C4B8B072D77023200E4E8DB /* Project object */;
 }
